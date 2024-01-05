@@ -1,0 +1,121 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    
+}
+
+
+.container{
+    background-color: rgba(24, 24, 24, 1);
+}
+header{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color:  rgba(33, 33, 33, 1);
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 200;
+    color: white;
+}
+.search-container{
+    width: 70%;
+   
+}
+.search-container input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.icon{
+    border:none;
+    background-color: transparent;
+}
+.filter-buttons{
+    padding: 10px;
+    margin: 10px;
+    
+    
+}
+.filter-buttons button{
+    background-color: 
+    rgba(48, 48, 48, 1);
+    padding: 3px 10px;
+}
+/* after filters button */
+ .main-container{
+    padding: 10px;
+    margin: 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.contents{
+    height: 100vh;
+}
+.left-menu{
+    height: 100vh;
+    overflow: auto;
+}
+.hide{
+    display: none;
+}
+.video-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 30px;
+    
+}
+.card{
+    padding-bottom: 10px;   
+     border:none;
+      
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+   
+}
+.card .heading{
+    margin-top: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    
+}
+.card .channel-name{
+    margin-top: -5px;
+}
+.card .views{
+    margin-top:-15px;
+    
+}
+.card .channel-name,.views, .time{
+    margin-left: 10px;
+
+}
+.card .heading,.channel-name, .views, .time{
+    line-height: 20px;
+    
+}
+/* extra classess */
+.fade-text{
+    font-size: 15px; 
+    color:grey;
+    font-weight: 500;
+    
+}
+.flex{
+    display: flex; 
+    margin-bottom: 10px;
+}
+.test{
+    margin-right: 15px;
+    
+
+}  
