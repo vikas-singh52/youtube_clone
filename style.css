@@ -47,6 +47,7 @@ header{
     background-color: 
     rgba(48, 48, 48, 1);
     padding: 3px 10px;
+    
 }
 /* after filters button */
  .main-container{
@@ -86,6 +87,7 @@ header{
     margin-top: 10px;
     margin-left: 10px;
     overflow: hidden;
+    color: black;
     
 }
 .card .channel-name{

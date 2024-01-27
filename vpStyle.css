@@ -13,22 +13,22 @@ body{
     gap: 30px;
     padding: 20px;
     margin: 20px auto 10px;
-    
     width: 80%;  
+    height: 100vh;
     
 }
 .play-video{
     background-color: black;
     flex: 1;
+    height: 100%;
     
 }
 .recommend-video{
     flex: 1;
-    
 }
 video{
     border: 2px solid red;
 }
 .pInline{
-    padding-inline: 10px;
+    padding-inline: 5px;
 }

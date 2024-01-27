@@ -1,0 +1,38 @@
+<!--Create a toggle button which allows to switch between the light and dark theme.-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .theme {
+            width: 80px;
+            height: 300px;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="theme"></div>
+    <button id="btn">change</button>
+
+    <script>
+        let t = document.querySelector(".theme");
+        let b = document.querySelector("#btn");
+        b.addEventListener("click", toggleE);
+        function toggleE(e) {
+            if(t.style.backgroundColor=="green"){
+            t.style.backgroundColor = "red";}
+            else{
+                t.style.backgroundColor = "green";
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
